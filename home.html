@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="logoheader.png" />
+  </head>
+  <body id="homepage">
+    <header>
+      <nav>
+        <img
+          src="designOne.png"
+          id="logo"
+          height="70px"
+          width="70px"
+          alt="img"
+        />
+        <div class="menu">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li>
+              <button class="contattami">Contacts</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="me">
+      <div class="infoMe">
+        <h3>Chiara Cirrito</h3>
+        <h5>Junior Front-end</h5>
+        <h5>Web Design</h5>
+        <h5>Ux - Ui Design</h5>
+      </div>
+      <img src="logoheader.png" height="250px" width="210px" />
+    </main>
+    <section class="info">
+      <div class="imgInfo">
+        <img
+          src="luogo.png"
+          id="luogo"
+          height="30px"
+          width="30px"
+          alt="luogo"
+          class="luogo"
+        />
+        <img
+          src="telefono.png"
+          id="cellulare"
+          height="30px"
+          width="30px"
+          alt="cellulare"
+          class="cellulare"
+        />
+        <img
+          src="mail.png"
+          id="mail"
+          height="30px"
+          width="30px"
+          alt="mail"
+          class="mail"
+        />
+      </div>
+      <div class="datiInfo">
+        <p>Via Aurelio Saffi 30, Collesano (PA)</p>
+        <p>+39 3895578295</p>
+        <p>chiara.cirrito1602@gmail.com</p>
+      </div>
+    </section>
+    <div class="immagine">
+      <img src="designThree.png" height="100px" width="100px" />
+    </div>
+    <div class="section_form">
+      <form
+        action="mailto:chiara.cirrito1602@gmail.com"
+        id="contact"
+        method="get"
+      >
+        <fieldset id="one">
+          <legend>TEXT ME</legend>
+          <section class="formone">
+            <label for="nome">Nome:</label>
+            <input
+              type="textarea"
+              name="nome"
+              id="nome"
+              placeholder="Qui il tuo nome"
+              required
+            />
+            <label for="cognome">Cognome:</label>
+            <input
+              type="text"
+              name="cognome"
+              id="cognome"
+              placeholder="Qui il tuo cognome"
+              required
+            />
+          </section>
+          <section class="formtwo">
+            <label for="dove">Dove hai trovato il mio portfolio?</label>
+            <select id="dove" name="dove">
+              <option value="linkedin">Linkedin</option>
+              <option value="google">Google</option>
+              <option value="facebook">Facebook</option>
+              <option value="instagram">Instagram</option>
+            </select>
+          </section>
+          <section class="formthree">
+            <label for="motivo">Area di interesse:</label>
+            <input type="checkbox" name="motivo" id="motivo" /> Social media
+            <input type="checkbox" name="motivo" id="motivo" /> Web development
+            <br />
+            <br />
+            <label for="messaggio">Per quale motivo mi contatti?</label>
+            <input
+              type="textarea"
+              name="messaggio"
+              id="messaggio"
+              cols="80"
+              row="40"
+              placeholder="Qui va il tuo messaggio"
+            />
+            <br />
+          </section>
+        </fieldset>
+        <section class="submitform">
+          <input type="submit" class="invio" id="botton" value="Invia" />
+        </section>
+      </form>
+    </div>
+    <a href="#homepage">
+      <button class="scroll-up">&#8593;</button>
+    </a>
+    <footer>
+      <div class="contact">
+        <ul>
+          <li>
+            <img
+              src="contactTwo.png"
+              id="facebook"
+              height="50px"
+              width="50px"
+              alt="facebook"
+            />
+          </li>
+          <li>
+            <img
+              src="contactOne.png"
+              id="instagram"
+              height="50px"
+              width="50px"
+              alt="instagram"
+            />
+          </li>
+          <li>
+            <img
+              src="contactThree.png"
+              id="linkedin"
+              height="50px"
+              width="50px"
+              alt="linkedin"
+            />
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js" type="text/javascript"></script>
+</html>
